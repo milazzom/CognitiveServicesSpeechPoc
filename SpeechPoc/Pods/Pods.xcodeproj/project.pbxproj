@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F3216FC75F8F438E20CC6C2E77F52CD2 /* MicrosoftCognitiveServicesSpeech-macOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BCE50813F91000FC6D58D018D7E795F1 /* Build configuration list for PBXAggregateTarget "MicrosoftCognitiveServicesSpeech-macOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "MicrosoftCognitiveServicesSpeech-macOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		6EC094893E748FB169B94A955A1C3D71 /* Pods-SpeechPoc-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E40433F48F8D45180732DF5BFD6EF /* Pods-SpeechPoc-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22D0FA951474C9EC54CF2697FD1E2066 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3216FC75F8F438E20CC6C2E77F52CD2;
+			remoteInfo = "MicrosoftCognitiveServicesSpeech-macOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E46553BF9D0E1832136F9FBBC918E1A /* Pods-SpeechPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeechPoc.release.xcconfig"; sourceTree = "<group>"; };
+		6851C39856A7EE596DBFE09C62CBA089 /* Pods-SpeechPoc-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpeechPoc-frameworks.sh"; sourceTree = "<group>"; };
+		698631172D31D6DE1001C4C494EAA23B /* libPods-SpeechPoc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SpeechPoc.a"; path = "libPods-SpeechPoc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDD150B02F2B67C6B1640C2CFF1F191 /* Pods-SpeechPoc-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpeechPoc-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E8E40433F48F8D45180732DF5BFD6EF /* Pods-SpeechPoc-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpeechPoc-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6BC630A6F2DE4822C9C7B3479B6354B /* MicrosoftCognitiveServicesSpeech-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MicrosoftCognitiveServicesSpeech-macOS.xcconfig"; sourceTree = "<group>"; };
+		BD1FDE84D84B179CAFD93AEE67030913 /* Pods-SpeechPoc-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpeechPoc-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C432A3D8DDD83DEA109E9FAAAF31C0BE /* MicrosoftCognitiveServicesSpeech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftCognitiveServicesSpeech.framework; sourceTree = "<group>"; };
+		E460292CD9B57A436E8A25055A640C5F /* Pods-SpeechPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpeechPoc.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E4FDACF73E79408863219622D422D16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E402A2FFCA1F77761BDC5A94103F901 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6BC630A6F2DE4822C9C7B3479B6354B /* MicrosoftCognitiveServicesSpeech-macOS.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MicrosoftCognitiveServicesSpeech-macOS";
+			sourceTree = "<group>";
+		};
+		3EC90A06EE6DF19AB149A01B28E19CE5 /* MicrosoftCognitiveServicesSpeech-macOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB3A3286A95D482F774535651B29F8B8 /* Frameworks */,
+				3E402A2FFCA1F77761BDC5A94103F901 /* Support Files */,
+			);
+			name = "MicrosoftCognitiveServicesSpeech-macOS";
+			path = "MicrosoftCognitiveServicesSpeech-macOS";
+			sourceTree = "<group>";
+		};
+		741AB7323774DF34FBBB868C8DF52547 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EC90A06EE6DF19AB149A01B28E19CE5 /* MicrosoftCognitiveServicesSpeech-macOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3993C83CE41C468AD14EF3577F9E87F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				698631172D31D6DE1001C4C494EAA23B /* libPods-SpeechPoc.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A951DB64B8D62A49E40E49A50C2839E2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3C3062D4E838A772B9BFE9E2B25E7B4 /* Pods-SpeechPoc */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C3C3062D4E838A772B9BFE9E2B25E7B4 /* Pods-SpeechPoc */ = {
+			isa = PBXGroup;
+			children = (
+				BD1FDE84D84B179CAFD93AEE67030913 /* Pods-SpeechPoc-acknowledgements.markdown */,
+				6CDD150B02F2B67C6B1640C2CFF1F191 /* Pods-SpeechPoc-acknowledgements.plist */,
+				7E8E40433F48F8D45180732DF5BFD6EF /* Pods-SpeechPoc-dummy.m */,
+				6851C39856A7EE596DBFE09C62CBA089 /* Pods-SpeechPoc-frameworks.sh */,
+				E460292CD9B57A436E8A25055A640C5F /* Pods-SpeechPoc.debug.xcconfig */,
+				1E46553BF9D0E1832136F9FBBC918E1A /* Pods-SpeechPoc.release.xcconfig */,
+			);
+			name = "Pods-SpeechPoc";
+			path = "Target Support Files/Pods-SpeechPoc";
+			sourceTree = "<group>";
+		};
+		CB3A3286A95D482F774535651B29F8B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C432A3D8DDD83DEA109E9FAAAF31C0BE /* MicrosoftCognitiveServicesSpeech.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				741AB7323774DF34FBBB868C8DF52547 /* Pods */,
+				A3993C83CE41C468AD14EF3577F9E87F /* Products */,
+				A951DB64B8D62A49E40E49A50C2839E2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		53C56511CA90555C01E8210D76318F73 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E4BF2908B83DF3BCBBF44B505268C36 /* Pods-SpeechPoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14046592B8BB634D83183471DAE2C820 /* Build configuration list for PBXNativeTarget "Pods-SpeechPoc" */;
+			buildPhases = (
+				53C56511CA90555C01E8210D76318F73 /* Headers */,
+				D28BF02778379A2D5F056749921B599B /* Sources */,
+				9E4FDACF73E79408863219622D422D16 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D9F140028294939C5D71193139FC65C /* PBXTargetDependency */,
+			);
+			name = "Pods-SpeechPoc";
+			productName = "Pods-SpeechPoc";
+			productReference = 698631172D31D6DE1001C4C494EAA23B /* libPods-SpeechPoc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A3993C83CE41C468AD14EF3577F9E87F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3216FC75F8F438E20CC6C2E77F52CD2 /* MicrosoftCognitiveServicesSpeech-macOS */,
+				3E4BF2908B83DF3BCBBF44B505268C36 /* Pods-SpeechPoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28BF02778379A2D5F056749921B599B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EC094893E748FB169B94A955A1C3D71 /* Pods-SpeechPoc-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D9F140028294939C5D71193139FC65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MicrosoftCognitiveServicesSpeech-macOS";
+			target = F3216FC75F8F438E20CC6C2E77F52CD2 /* MicrosoftCognitiveServicesSpeech-macOS */;
+			targetProxy = 22D0FA951474C9EC54CF2697FD1E2066 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A7265475433C00FDC7516E62E4D0BB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E46553BF9D0E1832136F9FBBC918E1A /* Pods-SpeechPoc.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7884FBACB89C0EEE99CACCC2C7E4BECE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC630A6F2DE4822C9C7B3479B6354B /* MicrosoftCognitiveServicesSpeech-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		80B676A940FD5758CD0CEBFB510E9027 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E460292CD9B57A436E8A25055A640C5F /* Pods-SpeechPoc.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9382317ED75CFC741F429FC224405042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D0B8CADE32B12A0CCB38E3543F837F7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BC630A6F2DE4822C9C7B3479B6354B /* MicrosoftCognitiveServicesSpeech-macOS.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4DEAC9B52796426D2A37E7074A1738D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14046592B8BB634D83183471DAE2C820 /* Build configuration list for PBXNativeTarget "Pods-SpeechPoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80B676A940FD5758CD0CEBFB510E9027 /* Debug */,
+				1A7265475433C00FDC7516E62E4D0BB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9382317ED75CFC741F429FC224405042 /* Debug */,
+				E4DEAC9B52796426D2A37E7074A1738D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE50813F91000FC6D58D018D7E795F1 /* Build configuration list for PBXAggregateTarget "MicrosoftCognitiveServicesSpeech-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B8CADE32B12A0CCB38E3543F837F7C /* Debug */,
+				7884FBACB89C0EEE99CACCC2C7E4BECE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - MicrosoftCognitiveServicesSpeech-macOS (1.5.1)
+
+DEPENDENCIES:
+  - MicrosoftCognitiveServicesSpeech-macOS (~> 1.5.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MicrosoftCognitiveServicesSpeech-macOS
+
+SPEC CHECKSUMS:
+  MicrosoftCognitiveServicesSpeech-macOS: 63c0c3b4424a772b0b2c176ecf5da9b96e05f13d
+
+PODFILE CHECKSUM: d9acfd2710e69056587a004a4fb2a8cae602fa98
+
+COCOAPODS: 1.7.2

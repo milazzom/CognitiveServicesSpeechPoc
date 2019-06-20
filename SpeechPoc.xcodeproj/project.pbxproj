@@ -11,9 +11,13 @@
 		61499AC322BC1F7E00E7B951 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61499AC222BC1F7E00E7B951 /* Assets.xcassets */; };
 		61499AC622BC1F7E00E7B951 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 61499AC422BC1F7E00E7B951 /* MainMenu.xib */; };
 		61499AC922BC1F7E00E7B951 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61499AC822BC1F7E00E7B951 /* main.m */; };
+		61499AD122BC208300E7B951 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 61499AD022BC208300E7B951 /* Podfile */; };
+		A10D2AFCAD44F257675ECE4A /* libPods-SpeechPoc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 216C112638F212EAD4119E74 /* libPods-SpeechPoc.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		216C112638F212EAD4119E74 /* libPods-SpeechPoc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpeechPoc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CFF9994E658D053901BFAB6 /* Pods-SpeechPoc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechPoc.release.xcconfig"; path = "Target Support Files/Pods-SpeechPoc/Pods-SpeechPoc.release.xcconfig"; sourceTree = "<group>"; };
 		61499ABC22BC1F7D00E7B951 /* SpeechPoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeechPoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61499ABF22BC1F7D00E7B951 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61499AC022BC1F7D00E7B951 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		61499AC722BC1F7E00E7B951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61499AC822BC1F7E00E7B951 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61499ACA22BC1F7E00E7B951 /* SpeechPoc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeechPoc.entitlements; sourceTree = "<group>"; };
+		61499AD022BC208300E7B951 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		BF12233D9232F371491A5D93 /* Pods-SpeechPoc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeechPoc.debug.xcconfig"; path = "Target Support Files/Pods-SpeechPoc/Pods-SpeechPoc.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10D2AFCAD44F257675ECE4A /* libPods-SpeechPoc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				61499ABE22BC1F7D00E7B951 /* SpeechPoc */,
 				61499ABD22BC1F7D00E7B951 /* Products */,
+				AE75A2DEEC6B717CF8FA9723 /* Pods */,
+				8BF437FBF12937116F45810B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,8 +70,27 @@
 				61499AC722BC1F7E00E7B951 /* Info.plist */,
 				61499AC822BC1F7E00E7B951 /* main.m */,
 				61499ACA22BC1F7E00E7B951 /* SpeechPoc.entitlements */,
+				61499AD022BC208300E7B951 /* Podfile */,
 			);
 			path = SpeechPoc;
+			sourceTree = "<group>";
+		};
+		8BF437FBF12937116F45810B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				216C112638F212EAD4119E74 /* libPods-SpeechPoc.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE75A2DEEC6B717CF8FA9723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF12233D9232F371491A5D93 /* Pods-SpeechPoc.debug.xcconfig */,
+				5CFF9994E658D053901BFAB6 /* Pods-SpeechPoc.release.xcconfig */,
+			);
+			name = Pods;
+			path = SpeechPoc/Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61499ACD22BC1F7E00E7B951 /* Build configuration list for PBXNativeTarget "SpeechPoc" */;
 			buildPhases = (
+				28ABD24434B50218E64B542C /* [CP] Check Pods Manifest.lock */,
 				61499AB822BC1F7D00E7B951 /* Sources */,
 				61499AB922BC1F7D00E7B951 /* Frameworks */,
 				61499ABA22BC1F7D00E7B951 /* Resources */,
+				561A41EEBC39BF639CAFFA82 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +126,11 @@
 				TargetAttributes = {
 					61499ABB22BC1F7D00E7B951 = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,12 +157,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61499AD122BC208300E7B951 /* Podfile in Resources */,
 				61499AC322BC1F7E00E7B951 /* Assets.xcassets in Resources */,
 				61499AC622BC1F7E00E7B951 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28ABD24434B50218E64B542C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeechPoc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561A41EEBC39BF639CAFFA82 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechPoc/Pods-SpeechPoc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeechPoc/Pods-SpeechPoc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeechPoc/Pods-SpeechPoc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61499AB822BC1F7D00E7B951 /* Sources */ = {
@@ -266,6 +344,7 @@
 		};
 		61499ACE22BC1F7E00E7B951 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF12233D9232F371491A5D93 /* Pods-SpeechPoc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SpeechPoc/SpeechPoc.entitlements;
@@ -283,6 +362,7 @@
 		};
 		61499ACF22BC1F7E00E7B951 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CFF9994E658D053901BFAB6 /* Pods-SpeechPoc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = SpeechPoc/SpeechPoc.entitlements;

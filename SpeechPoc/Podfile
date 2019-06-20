@@ -1,0 +1,5 @@
+target 'SpeechPoc' do
+project '../SpeechPoc.xcodeproj'
+platform :osx, '10.13'
+pod 'MicrosoftCognitiveServicesSpeech-macOS', '~> 1.5.1'
+end
